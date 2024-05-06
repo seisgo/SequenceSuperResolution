@@ -151,11 +151,4 @@ def prc_marmousi():
     run_predict(fname=lr_name, outfile=pr_name, ns=512, skipzero=True)
     
 if __name__ == '__main__':
-    # prc_marmousi2()
-    # hist=utils.load_history('./log/hist.pkl')
-    # utils.plot_history(hist)
-    # utils.plot_history(hist,feature='SNR')
-    # prc_marmousi2_20210316()
-    # prc_welllog_wb1_173_20210317()
-    #seismic_show_20210317()
-    seismic_show_202310()
+    prc_marmousi()
